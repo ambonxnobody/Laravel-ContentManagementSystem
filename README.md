@@ -1,6 +1,6 @@
-## Content Management System Open Source - Installation
+## Laravel-ContentManagementSystem Open Source - Installation
 
-The requirements to Laravel Content Management System application is:
+The requirements to Laravel-ContentManagementSystem application is:
 
 - **PHP - Supported Versions**: >= 8.0
 - **Webserver**: Nginx or Apache
@@ -9,8 +9,8 @@ The requirements to Laravel Content Management System application is:
 ### Git Clone
 
 ```
-$ git clone https://github.com/ambonxnobody/contentManagementSystem.git
-$ cd contentManagementSystem
+$ git clone https://github.com/ambonxnobody/Laravel-ContentManagementSystem.git
+$ cd Laravel-ContentManagementSystem
 $ composer update
 ```
 
@@ -50,14 +50,14 @@ DB_USERNAME=XXXX
 DB_PASSWORD=XXXXX
 ```
 
-**Remember**: Create the database for Laravel Content Management System before run artisan command.
+**Remember**: Create the database for Laravel-ContentManagementSystem before run artisan command.
 
 ```
 php artisan migrate --seed
 ```
 
 ```
-Application name: HospitalAppointment
+Application name: Laravel-ContentManagementSystem
 Homepage URL: URL (Same as APP_URL at .env)
 ```
 
